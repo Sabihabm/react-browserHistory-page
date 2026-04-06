@@ -1,0 +1,66 @@
+.browserHistory-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.import-contant {
+  background-color: #3367d6;
+  display: flex;
+  width: 100vw;
+  height: 6vh;
+}
+
+.history-logo {
+  height: 40px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.input-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #2850a7;
+  width: 50vw;
+  border-color: #ececec;
+}
+.input {
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  color: #ececec;
+  border: 0px;
+  border-color: #ececec;
+}
+.search-icon {
+  background-color: transparent;
+  border-width: 2px;
+  height: 25px;
+  padding: 2px;
+  border-color: #ececec;
+}
+.browserHistory-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  width: 96%;
+  box-shadow: 0px 2px 14px 0px;
+  padding: 18px;
+  height: auto;
+}
+.browserHistory-listItem {
+  display: flex;
+}
+.delete-icon {
+  height: 3vh;
+  margin-left: auto;
+}
+.app-icons {
+  height: 3vh;
+  margin: 10px;
+}
